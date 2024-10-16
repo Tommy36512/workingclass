@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Working Class Are You? - Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        form {
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ffcc00;
+            color: #333;
+        }
+        .result {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>How Working Class Are You?</h1>
+
+    <form id="quizForm">
+
+        <!-- Updated 20 Questions with 5 Answers Each -->
+        
+        <div class="question">
+            <label>1. Do you own a kettle?</label><br>
+            <input type="radio" name="q1" value="10"> Yes, I use it every day <br>
+            <input type="radio" name="q1" value="7"> Yes, but mostly for guests <br>
+            <input type="radio" name="q1" value="5"> I have one, but rarely use it <br>
+            <input type="radio" name="q1" value="2"> No, I prefer the microwave <br>
+            <input type="radio" name="q1" value="0"> No, who uses a kettle these days?
+        </div>
+
+        <div class="question">
+            <label>2. What's your go-to beverage?</label><br>
+            <input type="radio" name="q2" value="10"> Tea, obviously <br>
+            <input type="radio" name="q2" value="7"> Coffee <br>
+            <input type="radio" name="q2" value="5"> Hot chocolate <br>
+            <input type="radio" name="q2" value="2"> Sparkling water <br>
+            <input type="radio" name="q2" value="0"> Imported artisan beverages
+        </div>
+
+        <div class="question">
+            <label>3. What do you call dinner?</label><br>
+            <input type="radio" name="q3" value="10"> Tea <br>
+            <input type="radio" name="q3" value="7"> Dinner <br>
+            <input type="radio" name="q3" value="5"> Supper <br>
+            <input type="radio" name="q3" value="2"> The evening meal <br>
+            <input type="radio" name="q3" value="0"> I don't really use labels for meals
+        </div>
+
+        <div class="question">
+            <label>4. Have you ever wrapped a sandwich in foil?</label><br>
+            <input type="radio" name="q4" value="10"> Every single day <br>
+            <input type="radio" name="q4" value="7"> Occasionally for picnics <br>
+            <input type="radio" name="q4" value="5"> Once in a while <br>
+            <input type="radio" name="q4" value="2"> Only if I’m out of plastic wrap <br>
+            <input type="radio" name="q4" value="0"> Never, that’s too much effort
+        </div>
+
+        <div class="question">
+            <label>5. What’s your ideal holiday?</label><br>
+            <input type="radio" name="q5" value="10"> A caravan trip to Wales <br>
+            <input type="radio" name="q5" value="7"> Blackpool or somewhere local <br>
+            <input type="radio" name="q5" value="5"> Spain, somewhere warm and cheap <br>
+            <input type="radio" name="q5" value="2"> A Mediterranean cruise <br>
+            <input type="radio" name="q5" value="0"> Skiing in the French Alps
+        </div>
+
+        <div class="question">
+            <label>6. What material is your front door made of?</label><br>
+            <input type="radio" name="q6" value="10"> UPVC <br>
+            <input type="radio" name="q6" value="7"> Wood <br>
+            <input type="radio" name="q6" value="5"> Steel <br>
+            <input type="radio" name="q6" value="2"> Composite <br>
+            <input type="radio" name="q6" value="0"> Glass
+        </div>
+
+        <div class="question">
+            <label>7. Which sauce do you always have in the fridge?</label><br>
+            <input type="radio" name="q7" value="10"> HP Sauce <br>
+            <input type="radio" name="q7" value="7"> Tomato Ketchup <br>
+            <input type="radio" name="q7" value="5"> Mayo <br>
+            <input type="radio" name="q7" value="2"> Barbecue sauce <br>
+            <input type="radio" name="q7" value="0"> Pesto
+        </div>
+
+        <div class="question">
+            <label>8. Have you ever eaten chips out of newspaper?</label><br>
+            <input type="radio" name="q8" value="10"> Yes, still do <br>
+            <input type="radio" name="q8" value="7"> Yes, but only in my youth <br>
+            <input type="radio" name="q8" value="5"> Once or twice <br>
+            <input type="radio" name="q8" value="2"> No, but I’ve seen it done <br>
+            <input type="radio" name="q8" value="0"> Never, that’s unhygienic
+        </div>
+
+        <div class="question">
+            <label>9. How do you feel about Greggs?</label><br>
+            <input type="radio" name="q9" value="10"> Weekly ritual <br>
+            <input type="radio" name="q9" value="7"> Occasionally treat myself <br>
+            <input type="radio" name="q9" value="5"> Only when it’s convenient <br>
+            <input type="radio" name="q9" value="2"> I don’t eat Greggs often <br>
+            <input type="radio" name="q9" value="0"> Never been
+        </div>
+
+        <div class="question">
+            <label>10. Have you ever walked around the house in slippers?</label><br>
+            <input type="radio" name="q10" value="10"> Always, I live in them <br>
+            <input type="radio" name="q10" value="7"> Only in winter <br>
+            <input type="radio" name="q10" value="5"> Occasionally <br>
+            <input type="radio" name="q10" value="2"> Rarely <br>
+            <input type="radio" name="q10" value="0"> Never
+        </div>
+
+        <div class="question">
+            <label>11. What do you think of when you hear 'Tesco Finest'?</label><br>
+            <input type="radio" name="q11" value="10"> Special occasion food <br>
+            <input type="radio" name="q11" value="7"> Something I buy occasionally <br>
+            <input type="radio" name="q11" value="5"> It’s fine, but nothing special <br>
+            <input type="radio" name="q11" value="2"> I avoid it <br>
+            <input type="radio" name="q11" value="0"> No idea, I shop elsewhere
+        </div>
+
+        <div class="question">
+            <label>12. Do you own a caravan?</label><br>
+            <input type="radio" name="q12" value="10"> Yes, and we use it every summer <br>
+            <input type="radio" name="q12" value="7"> Yes, but rarely use it <br>
+            <input type="radio" name="q12" value="5"> No, but I’d like to <br>
+            <input type="radio" name="q12" value="2"> No, but I’ve stayed in one <br>
+            <input type="radio" name="q12" value="0"> No, I prefer hotels
+        </div>
+
+        <div class="question">
+            <label>13. What’s your relationship with rugby?</label><br>
+            <input type="radio" name="q13" value="10"> Love it, watch every match <br>
+            <input type="radio" name="q13" value="7"> I watch the big games <br>
+            <input type="radio" name="q13" value="5"> I enjoy it, but not often <br>
+            <input type="radio" name="q13" value="2"> I’ve watched a match or two <br>
+            <input type="radio" name="q13" value="0"> No interest in rugby
+        </div>
+
+        <div class="question">
+            <label>14. Have you ever worn a flat cap?</label><br>
+            <input type="radio" name="q14" value="10"> Yes, I own one <br>
+            <input type="radio" name="q14" value="7"> Yes, but rarely <br>
+            <input type="radio" name="q14" value="5"> Only for fancy dress <br>
+            <input type="radio" name="q14" value="2"> I tried one once <br>
+            <input type="radio" name="q14" value="0"> Never
+        </div>
+
+        <div class="question">
+            <label>15. Do you know all the words to 'Bread of Heaven'?</label><br>
+            <input type="radio" name="q15" value="10"> Yes, I could sing it in my sleep <br>
+            <input type="radio" name="q15" value="7"> I know most of it <br>
+            <input type="radio" name="q15" value="5"> Just the chorus <br>
+            <input type="radio" name="q15" value="2"> A few lines <br>
+            <input type="radio" name="q15" value="0"> No, I don’t know it
+        </div>
+
+        <div class="question">
+            <label>16. What do you call your evening meal in Wales?</label><br>
+            <input type="radio" name="q16" value="10"> Tea <br>
+            <input type="radio" name="q16" value="7"> Dinner <br>
+            <input type="radio" name="q16" value="5"> Supper <br>
+            <input type="radio" name="q16" value="2"> I call it the evening meal <br>
+            <input type="radio" name="q16" value="0"> I don’t label my meals
+        </div>
+
+        <div class="question">
+            <label>17. Do you keep spare change in a tin or jar at home?</label><br>
+            <input type="radio" name="q17" value="10"> Yes, always <br>
+            <input type="radio" name="q17" value="7"> Usually <br>
+            <input type="radio" name="q17" value="5"> Sometimes <br>
+            <input type="radio" name="q17" value="2"> Rarely <br>
+            <input type="radio" name="q17" value="0"> Never
+        </div>
+
+        <!-- Continue adding questions similarly -->
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        const form = document.getElementById('quizForm');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            let totalScore = 0;
+            const formData = new FormData(form);
+
+            for (let value of formData.values()) {
+                totalScore += parseInt(value);
+            }
+
+            const resultDiv = document.getElementById('result');
+            let message = '';
+
+            if (totalScore > 150) {
+                message = 'You’re working class through and through!';
+            } else if (totalScore > 100) {
+                message = 'You’re quite working class with a mix of middle-class tendencies!';
+            } else if (totalScore > 50) {
+                message = 'You’re balanced between working and middle class.';
+            } else {
+                message = 'You’re definitely more middle class!';
+            }
+
+            resultDiv.innerHTML = `<p>Your Score: ${totalScore}</p><p>${message}</p>`;
+        });
+    </script>
+
+</body>
+</html>
